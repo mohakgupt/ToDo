@@ -1,0 +1,10 @@
+.text-bg-secondary{
+    opacity: 0.5;
+}
+#flexCheckDefault, .btn-danger{
+    opacity: 0;
+  }
+  
+  .card:hover #flexCheckDefault, .card:hover .btn-danger{
+    opacity: 1;
+  }

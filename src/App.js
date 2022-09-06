@@ -24,7 +24,7 @@ function App() {
   }
   function newTodo(title, desc) {
     let sno = 0;
-    if (todos.length == 0) {
+    if (todos.length === 0) {
       sno = 1;
     } else {
       sno = todos.length + 1;
